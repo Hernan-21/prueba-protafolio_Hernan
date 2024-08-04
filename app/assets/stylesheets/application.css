@@ -1,12 +1,11 @@
-.custom-btn {
-    background-color: #28a745; /* Color verde personalizado */
+.btn{
     color: #fff;
-    border: none;
-    transition: background-color 0.3s ease;
-  }
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
   
-  .custom-btn:hover {
-    background-color: #218838; /* Cambia el color en el hover */
+.btn:hover{
     color: #fff;
-  }
-  
+    background-color: #007bffb0!important;
+    border-color: #007bffb0 !important;
+}

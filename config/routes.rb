@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'pages#home'  # Esto define la ruta raíz
+  root 'pages#home'
 
   get '/home', to: 'pages#home', as: 'home'
   get '/projects', to: 'pages#projects', as: 'projects'
